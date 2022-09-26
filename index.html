@@ -19,16 +19,18 @@
 
 <body>
     <!--h1, h2... это заголовок-->
+<div class="name">
     <h2>Adilzhan Kadyrov</h2>
-    <hr size = "5" noshade/>
+</div>
+
     <!-- table,tr это теги таблицы th это заголовок в таблице, 
         а td это обычный текст-->
 <div class="info">
     <table>
         <tr>
-                <th>year</th>
-                <th>month</th>
-                <th>day</th>
+                <th>YYYY/</th>
+                <th>MM/</th>
+                <th>DD/</th>
         </tr>
                 <td>2006</td>
                 <td>march</td>
@@ -37,15 +39,15 @@
             
 </div>
 
+
+
+
 <div class="social">
-    <h2>my social media</h2>
+    <h3>my social media</h3>
  
-    <!--тут "ul","li" нужны чтобы сделать список-->
     <ul>
         <li> 
-            <!--"em" это шрифт-->
             <em>
-                <!--"a" тег гиперссылки на сайте-->
                 <a
                 href="https://instagram.com/adilzhan_kad ">
                     instagram
@@ -56,47 +58,51 @@
             <em>
                 <a
                 href="https://t.me/Adik0_0 ">
-                    telegramm
+                    telegram
                 </a>
             </em>
         </li>
     </ul>
-    <hr size="2">
 
-    <h2>my Hobbies</h2>
-        <ul>
-            <li> 
-                <em>
-                    <!-- тут "book html" это
-                     вторая странница сайта
-                     (мультистраница)-->
-                    <a href="book.html">
-                        reading  </a> 
-                </em>
-            </li>
 
-            <!--тег для картинки "img",
-                     "width" - размер картинки-->
-            <img src="img/booktest.jpeg" alt="book"
+<hr size="2">
+
+
+
+<div>
+    <h3>my Hobbies</h3>    
+
+        <div class="hobby" id="minDiv">
+            <div>
+            <img alt="book"
                     width="150"
                     class="ava"/>
-                    <li>
-                        <a href="music.html">
-                            <em>play piano</em>
-                        </a>
-                        
-                    </li>
-                    
-                    <img src="https://tayniymir.com/wp-content/uploads/2017/09/20i59ab25a1dce338.51714577.jpg" alt="piano"
+               <h5> reading </h5>
+            </div>
+            
+
+            <div>
+            <img src="https://tayniymir.com/wp-content/uploads/2017/09/20i59ab25a1dce338.51714577.jpg" alt="piano"
                     width="150"
                     class="ava"/>
+                
+                <h5>piano</h5>
+            </div>
 
-</div>                   
-        </ul>
-        <hr size="2">
-        <!-- ввод данных - form.
-        lable то что ты просишь чтоб ввели,
-        input это поле для ввода -->
+            <div>
+            <img src="https://elearning.diginamic.fr/pluginfile.php/820/course/overviewfiles/Programmation%20orient%C3%A9e%20objet%20-%20J5.png" alt="coding" width="150" class="ava">
+               <h5>coding</h5> 
+            </div>
+        </div>
+
+
+</div>
+
+
+<hr size="2">
+
+
+ <div>
         <h2>contact me</h2>
         <form action="">
             <label for="">your name:</label>
@@ -115,7 +121,7 @@
         <form action="">
             <input type="submit">
         </form>
-        
+</div>
 
 </body>
     </html>
